@@ -19,23 +19,27 @@
 .row4 {
   width: 100%;
   height: auto;
-  padding: 0px 20px;
   margin-right: -15px;
   margin-left: -15px;
-  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .row5 {
   width: 100%;
   height: auto;
-  padding: 0px 20px;
   margin-right: -15px;
   margin-left: -15px;
-  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 footer {
-  height: 100px;
+  height: auto;
   margin: auto;
   width: 100%;
   text-align: center;
