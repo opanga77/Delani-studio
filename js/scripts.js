@@ -7,6 +7,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   $("#devLogo").click(function() {
     $(".toggleDevLogo").toggle();
+
   });
 });
 
