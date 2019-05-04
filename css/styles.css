@@ -1,3 +1,8 @@
+.bannerImage {
+  background-image: url('/images/h_img.jpg');
+  background-size: cover;
+}
+
 .row1 {
   width: 100%;
   height: 600px;
@@ -18,28 +23,42 @@
 
 .row4 {
   width: 100%;
-  height: auto;
+  height: 300px;
   margin-right: -15px;
   margin-left: -15px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  padding: 0px 20px;
 }
 
 .row5 {
   width: 100%;
-  height: auto;
+  height: 300px;
+  margin-right: -20px;
+  margin-left: -20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+}
+
+.row6 {
+  width: 100%;
+  height: 300px;
   margin-right: -15px;
   margin-left: -15px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  padding: 0px 20px;
 }
 
 footer {
-  height: auto;
+  height: 100px;
   margin: auto;
   width: 100%;
   text-align: center;
@@ -49,4 +68,9 @@ footer {
 
 .footer ul li {
   display: inline-block;
+}
+
+#header3 {
+  font-family: Signika Negative, sans-serif;
+  text-align: center;
 }
