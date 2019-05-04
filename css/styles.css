@@ -80,3 +80,22 @@ footer {
   font-family: Signika Negative, sans-serif;
   text-align: center;
 }
+
+.whatWeDo {
+  /* margin: 4em 0; */
+  margin-right: -15px;
+  margin-left: -15px;
+  position: relative;
+}
+
+.whatWeDo h1 {
+  margin: 2em;
+  font-family: Signika Negative, sans-serif;
+}
+
+.whatWeDo img {
+  height: 100px;
+  width: auto;
+  margin-right: -20px;
+  margin-left: -20px;
+}
