@@ -1,6 +1,12 @@
 $(document).ready(function() {
+  $("#designLogo").click(function() {
+    $(".toggleDesignLogo").toggle();
+  });
+});
+
+$(document).ready(function() {
   $("#devLogo").click(function() {
-    $(".toggleLogo").toggle();
+    $(".toggleDevLogo").toggle();
   });
 });
 
