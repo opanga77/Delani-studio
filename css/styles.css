@@ -122,3 +122,20 @@ footer {
 .footer ul li {
   display: inline-block;
 }
+
+#designLogo {
+  background-image: url(images/design_icon.png);
+  background-size: cover;
+}
+
+#designLogo h1 {
+  display: none;
+  text-align: center;
+  font-family: Signika Negative, sans-serif;
+}
+
+#designLogo p {
+  display: none;
+  text-align: center;
+  font-family: Signika Negative, sans-serif;
+}
