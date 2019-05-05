@@ -23,5 +23,5 @@ jQuery
 ## Support and contact details
 xf.xavierfrank@gmail.com
 ### License
-*MIT*
-Copyright (c) 2019 **thepsalmist**
+* LICENSE.txt*
+
