@@ -45,3 +45,31 @@ $(document).ready(function() {
   });
 
 });
+$(document).ready(function() {
+  $('#subscribeForm').bind('.submit', function() {
+    event.preventDefault();
+    var name = $('#nameInput').val;
+    var email = $('#exampleFormControlInput1').val;
+    var message = $('#messageInput').val;
+    var url = "https://us20.api.mailchimp.com/2.0/lists/subscribe.json?" +
+      "id=98190a3419c9eb27281a8f3d59840865-us20 " +
+      "&email[email]=" + email +
+      "&merge_vars[NAME]=" + name +
+      "&merge_vars[NAME]=" + message +
+      "&send_welcome=false";
+
+    $.ajax({
+      type: "POST",
+      url: url,
+      dataType: 'json',
+      success: function(data) {
+        $('#subscribe-form').html("Thank you!");
+      },
+      error: function(jqXHR, textStatus, errorThrown) {
+        alert(errorThrown);
+      }
+    });
+
+
+  });
+});
