@@ -11,6 +11,12 @@ $(document).ready(function() {
     $(".toggleProductLogo").toggle();
   });
 });
+$(document).ready(function() {
+  $('.work1Logo').hover(function() {
+    console.log('hovering')
+    $("#work1Text").show();
+  });
+});
 console.log('it works')
 $(document).ready(function() {
   $('.submit').click(function(event) {
