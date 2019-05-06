@@ -163,6 +163,18 @@ footer {
   font-family: Signika Negative, sans-serif;
 }
 
+#inlineDesign {
+  text-align: center;
+}
+
+#inlineDev {
+  text-align: center;
+}
+
+#inlineProduct {
+  text-align: center;
+}
+
 #inline {
   text-align: center;
 }

@@ -1,20 +1,36 @@
 $(document).ready(function() {
   $("#designLogo").click(function() {
-    $(".toggleDesignLogo").toggle();
+    $("#inlineDesign").hide();
+    $(".toggleDesignLogo").show();
+  });
+  $(".toggleDesignLogo").click(function() {
+    $(".toggleDesignLogo").hide();
+    $("#inlineDesign").show();
   });
 
   $("#devLogo").click(function() {
-    $(".toggleDevLogo").toggle();
+    $("#inlineDev").hide();
+    $(".toggleDevLogo").show();
+  });
+  $(".toggleDevLogo").click(function() {
+    $(".toggleDevLogo").hide();
+    $("#inlineDev").show();
   });
 
   $("#productLogo").click(function() {
-    $(".toggleProductLogo").toggle();
+    $("#inlineProduct").hide();
+    $(".toggleProductLogo").show();
   });
-});
-$(document).ready(function() {
-  $('.work1Logo').hover(function() {
-    console.log('hovering')
-    $("#work1Text").show();
+  $(".toggleProductLogo").click(function() {
+    $(".toggleProductLogo").hide();
+    $("#inlineProduct").show();
+
+  });
+  $(document).ready(function() {
+    $('.work1Logo').hover(function() {
+      console.log('hovering')
+      $("#work1Text").show();
+    });
   });
 });
 console.log('it works')
