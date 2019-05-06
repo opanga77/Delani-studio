@@ -15,6 +15,9 @@ To start using this project use the following commands:
 | User enters invalid name and email in the form | emiail: 123erf name: w         | name and email invalid              |
 | User enters valid mail and email in the form   | email: abc@gmail.com name: Dan | name and email valid                |
 | User enters text in the message text area      | Hello form submitted           | Thank you for submitting your form. |
+## Link to view Application
+https://thepsalmist.github.io/delani-studio/
+
 ## Technologies Used
 HTML
 CSS
