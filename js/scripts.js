@@ -67,9 +67,9 @@ $(document).ready(function() {
     var name = $('#nameInput').val;
     var email = $('#exampleFormControlInput1').val;
     var message = $('#messageInput').val;
-    var url = "https://us20.api.mailchimp.com/2.0/lists/subscribe.json?" +
-      "id=98190a3419c9eb27281a8f3d59840865-us20 " +
-      "&email[email]=" + email +
+    var url = "https://us20.api.mailchimp.com/2.0/lists/subscribe.json?" + "apikey=df458b36b6"
+    "id=98190a3419c9eb27281a8f3d59840865-us20 " +
+    "&email[email]=" + email +
       "&merge_vars[NAME]=" + name +
       "&merge_vars[NAME]=" + message +
       "&send_welcome=false";
